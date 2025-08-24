@@ -1,0 +1,22 @@
+{
+  "name": "Allan Portfolio",
+  "short_name": "Allan",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b0c10",
+  "theme_color": "#0b0c10",
+  "description": "Allan Ribeiro \u2014 Flutter Developer Portfolio",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

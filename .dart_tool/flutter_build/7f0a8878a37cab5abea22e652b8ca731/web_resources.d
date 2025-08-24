@@ -1,0 +1,1 @@
+ build\\web\\icons\\Icon-192.png build\\web\\icons\\Icon-512.png build\\web\\manifest.json:  C:\\Projetos\\resume\\web\\icons\\Icon-192.png C:\\Projetos\\resume\\web\\icons\\Icon-512.png C:\\Projetos\\resume\\web\\index.html C:\\Projetos\\resume\\web\\manifest.json
