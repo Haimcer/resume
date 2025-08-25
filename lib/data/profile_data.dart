@@ -5,17 +5,17 @@ const data = ProfileData(
   name: 'Allan Ribeiro',
   headline: 'Flutter Developer',
   about:
-      'I am a mobile developer specialized in Flutter, passionate about turning ideas into scalable apps with Firebase, REST integrations, authentication, push notifications, geolocation, and cloud storage. I have published apps on Google Play and the App Store, including social platforms with check-in features, administrative dashboards, business apps, and an eBook reader with offline downloads.',
+      'I am a mobile developer specialized in Flutter, with experience in developing cross-platform applications, using Firebase, REST/GraphQL, AWS, secure authentication, push notifications and state management.',
   interests: ['Flutter', 'APIs', 'Firebase', 'UI/UX', 'Games', 'Cloud'],
   experiences: [
     Experience(
       company: 'Smart Pública',
       role: 'Flutter Developer (Contractor)',
-      period: 'Multi-year — Present',
+      period: '2024 — Present',
       bullets: [
         'Built and maintained cross-platform mobile apps for internal and public users.',
         'Authentication, role-based access, geolocation, and push notifications using Firebase.',
-        'Modular architecture with MobX/Provider and clean code standards.',
+        'State management with MobX/Provider and clean code standards.',
       ],
       tools: [
         'Flutter',
@@ -30,7 +30,7 @@ const data = ProfileData(
     Experience(
       company: 'Techinnovate Labs',
       role: 'Flutter Developer (Contractor)',
-      period: 'Multi-year — Present',
+      period: '2022 — Present',
       bullets: [
         'Delivered consumer apps end-to-end (e.g., My Cooking, Black Stories — PT/EN).',
         'Offline-first features with local storage, media handling, and performance tuning.',
@@ -74,7 +74,6 @@ const data = ProfileData(
     ],
   ),
   education: [
-    Education(title: 'Self-taught + Bootcamps', place: 'Brasil', period: '—'),
     Education(
         title: 'Flutter Bootcamps (Udemy / Angela Yu / Maximilian)',
         place: 'Online',
@@ -132,7 +131,9 @@ const data = ProfileData(
       icon: Icons.apple,
     ),
     QuickLink('GitHub', 'https://github.com/Haimcer', icon: Icons.code),
-    QuickLink('LinkedIn', 'https://www.linkedin.com/in/allan-ribeiro-silva-46596134a/', icon: Icons.business),
+    QuickLink('LinkedIn',
+        'https://www.linkedin.com/in/allan-ribeiro-silva-46596134a/',
+        icon: Icons.business),
   ],
   languages: ['English (B2 — Upper-Intermediate)', 'Portuguese (Native)'],
   details: [
